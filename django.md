@@ -4,7 +4,7 @@ This guide outlines various Django commands.
 
 ## Remember:
 - Windows to run commands use **py** not python3
-- MacOS, to run commands use *python3*
+- MacOS, to run commands use **python3**
 
 ## Commands:
 
