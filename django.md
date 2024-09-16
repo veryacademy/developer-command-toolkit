@@ -8,6 +8,11 @@ This guide outlines various Django commands.
 
 ## Commands:
 
+- **Start a new project in an existing folder with a core project folder named core**
+    ```
+    django-admin startproject core ./project-folder-name
+    ```
+
 - **Start the development server**
     ```
     python3 manage.py runserver
