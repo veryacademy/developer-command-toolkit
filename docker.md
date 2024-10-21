@@ -13,11 +13,12 @@ This guide outlines various docker commands.
     ```
 
 - **Access Docker Contianer Terminale**
-    Find the Container Name or ID:
+  
+    1. Find the Container Name or ID:
     ```
     docker ps
     ```
-    Use docker exec to Access the Container
+    2. Use docker exec to Access the Container
     ```
     docker exec -it <container_name_or_id> /bin/bash
     ```
