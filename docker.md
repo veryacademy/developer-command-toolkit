@@ -11,3 +11,13 @@ This guide outlines various docker commands.
     ```
     docker compose -f ./infrastructure/docker-compose.yml up --build -d
     ```
+
+- **Access Docker Contianer Terminale**
+    Find the Container Name or ID:
+    ```
+    docker ps
+    ```
+    Use docker exec to Access the Container
+    ```
+    docker exec -it <container_name_or_id> /bin/bash
+    ```
