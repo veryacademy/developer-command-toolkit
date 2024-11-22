@@ -22,3 +22,9 @@ This guide outlines various docker commands.
     ```
     docker exec -it <container_name_or_id> /bin/bash
     ```
+
+- ** Copy File from Container
+
+    ```
+    cp <container_name>:/usr/src/app/requirements.txt ./requirements.txt
+    ```
